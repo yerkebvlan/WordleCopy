@@ -24,7 +24,7 @@ function Header(props){
                 <FontAwesomeIcon icon={faQuestionCircle} size={Math.min(window.innerHeight, window.innerWidth)<315 ? "lg" : "xl"} />
             </div>
             <div className="title">
-                <h1>Wordle</h1>
+                <h1>Unlimited Wordle</h1>
             </div>
             <div className="header-icon">
                 <FontAwesomeIcon icon={faMoon} size={Math.min(window.innerHeight, window.innerWidth)<315 ? "lg" : "xl"} className={props.gameMessageState ? "" : "interactive-icon"} 
