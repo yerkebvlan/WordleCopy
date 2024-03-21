@@ -1,12 +1,12 @@
-# Wordle but Better
+# Unlimited Wordle
 
-Created a wordle app (with dark mode compatibility) where you can play  as many times as you want.
+Developed a Wordle application with unlimited gameplay and dark mode support.
 
-## Demo Link for You
+## Deployed Link
 
-https://wordle-clone-by-yerkebulan.vercel.app/  
+https://unlimited-wordle-clone.vercel.app/
 
-## Screenshot
+## Screenshots
 
 ### Desktop View  :
 
@@ -32,12 +32,7 @@ https://wordle-clone-by-yerkebulan.vercel.app/
     
 ## Technologies
 
-I used React.JS and CSS to make this app
-
-## Setup
-* download or clone the repository
-* run `npm install` to install dependencies
-* run `npm start` to start the app locally
+React.JS and CSS were used when creating this application
 
 ## Author
-This app was made by **Yerkebulan Stal**
+This application was developed by **Yerkebulan Stal**
