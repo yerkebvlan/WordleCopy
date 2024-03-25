@@ -1,6 +1,6 @@
 # Unlimited Wordle
 
-Developed a Wordle application with unlimited gameplay and dark mode support.
+Developed a Wordle app with unlimited gameplay and dark mode support.
 
 ## Deployed Link
 
