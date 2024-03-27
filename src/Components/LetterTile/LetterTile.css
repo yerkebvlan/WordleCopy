@@ -1,0 +1,112 @@
+.tile{
+    height: min(8vh, 16vw);
+    width: min(8vh, 16vw);
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform ease 0.3s, transform ease 0.3s;
+    transition: -webkit-transform ease 0.3s, transform ease 0.3s;
+    
+}
+
+.pop-tile-grow{
+    -webkit-transform: scale(105%);
+    transform: scale(105%);
+    -webkit-transition: -webkit-transform ease 0.05s, transform ease 0.05s;
+    transition: -webkit-transform ease 0.05s, transform ease 0.05s;
+}
+
+.pop-tile-reduce{
+    -webkit-transform: scale(95%);
+    transform: scale(95%);
+    -webkit-transition: -webkit-transform ease 0.05s, transform ease 0.05s;
+    transition: -webkit-transform ease 0.05s, transform ease 0.05s;
+}
+
+.border-tile-pre-light{
+    border: 2px solid #d3d6da;
+}
+
+.border-tile-pre-dark{
+    border: 2px solid #3a3a3c;
+}
+
+.border-tile-light{
+    border: 2px solid black;
+}
+
+.border-tile-dark{
+    border: 2px solid rgb(180, 178, 178);
+}
+
+.transparent-border{
+    border: 2px solid transparent;
+}
+
+.flip{
+    transform: scaleY(0);
+}
+
+.left-1{
+    transform: translateX(-1px);
+    transition: transform ease 0.05s;
+}
+
+.right-1{
+    transform: translateX(1px);
+    transition: transform ease 0.05s;
+}
+
+.left-3{
+    transform: translateX(-3px);
+    transition: transform ease 0.05s;
+}
+
+.right-3{
+    transform: translateX(3px);
+    transition: transform ease 0.05s;
+}
+
+.left-5{
+    transform: translateX(-5px);
+    transition: transform ease 0.05s;
+}
+
+.right-5{
+    transform: translateX(5px);
+    transition: transform ease 0.05s;
+}
+
+.up{
+    transform: translateY(max(-6vh, -16vw));
+    transition: transform ease 0.2s;
+}
+
+.down{
+    transform: translateY(10px);
+    transition: transform ease 0.2s;
+}
+
+@media (max-width: 390px){
+
+    .border-tile{
+        border: 2px solid rgb(104, 100, 100);
+    }
+}
+
+@media (max-width: 420px){
+    .tile{
+        font-size: small;
+    }
+}
+
+@media (max-height: 550px){
+    .tile{
+        font-size: small;
+    }
+}
