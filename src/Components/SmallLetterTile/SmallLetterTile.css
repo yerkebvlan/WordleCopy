@@ -1,0 +1,22 @@
+.small-letter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min(7vh, 14vw);
+    width: min(7vh, 14vw);
+    box-sizing: border-box;
+    margin-right: 3px;
+    transition: transform ease 0.2s;
+}
+
+.border-tile-light-thin{
+    border: 2px solid #d3d6da;
+}
+
+.border-tile-dark-thin{
+    border: 2px solid #3a3a3c;
+}
+
+.border-tile-transparent-thin{
+    border: 2px solid transparent;
+}
