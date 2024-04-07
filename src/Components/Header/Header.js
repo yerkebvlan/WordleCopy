@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle, faArrowsRotate, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Header.css"
 
 function Header(props){
@@ -12,6 +13,11 @@ function Header(props){
             <div className="header-icon">
                 <FontAwesomeIcon icon={faQuestionCircle} size={Math.min(window.innerHeight, window.innerWidth)<315 ? "lg" : "xl"} className={props.gameMessageState ? "" : "interactive-icon"} onClick={()=>{if(buttonActive && !props.gameMessageState){
                                                                                                                                                                                                                 props.informationState[1](true);
+                                                                                                                                                                                                            }}}/>
+            </div>
+            <div className="header-icon">
+                <FontAwesomeIcon icon={faGithub} size={Math.min(window.innerHeight, window.innerWidth)<315 ? "lg" : "xl"} className={props.gameMessageState ? "" : "interactive-icon"} onClick={()=>{if(buttonActive && !props.gameMessageState){
+                                                                                                                                                                                                                window.open("https://github.com/yerkebvlan", "_blank");
                                                                                                                                                                                                             }}}/>
             </div>
             <div className="header-icon" style={{color: isDarkMode ? "#121213" : "white"}}>
